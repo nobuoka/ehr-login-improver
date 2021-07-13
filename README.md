@@ -7,9 +7,9 @@ Firefox と Chrome で動作確認をしている。
 
 ## 仕様
 
-* https://www.saiyo-dr.jp/ 配下の任意のページ (A) を開こうとして https://www.saiyo-dr.jp/{xxx}/login.jsp にリダイレクトされた場合に、本拡張機能が機能する (このパターンに当てはまらないログイン URL の場合には機能しない)
-* 上記ログインページからログインして https://www.saiyo-dr.jp/{xxx}/menu.jsp に遷移させられそうになると、本拡張機能がもともと開こうとしていたページ (A) にリダイレクトする
-    * ログイン後、https://www.saiyo-dr.jp/{xxx}/menu.jsp に遷移しない場合は、本拡張機能は機能しない
+* `https://www.saiyo-dr.jp/` 配下の任意のページ (A) を開こうとして `https://www.saiyo-dr.jp/{xxx}/login.jsp` にリダイレクトされた場合に、本拡張機能が機能する (このパターンに当てはまらないログイン URL の場合には機能しない)
+* 上記ログインページからログインして `https://www.saiyo-dr.jp/{xxx}/menu.jsp` に遷移させられそうになると、本拡張機能がもともと開こうとしていたページ (A) にリダイレクトする
+    * ログイン後、`https://www.saiyo-dr.jp/{xxx}/menu.jsp` に遷移しない場合は、本拡張機能は機能しない
 
 ## 技術的な参考文献
 
