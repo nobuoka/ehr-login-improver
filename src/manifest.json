@@ -1,0 +1,17 @@
+{
+    "name": "ehr-login-improver",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "EHR のログイン改善",
+
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "https://www.saiyo-dr.jp/*"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
